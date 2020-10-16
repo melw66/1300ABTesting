@@ -53,3 +53,8 @@ header {
 .red-cart {
 	color: #DF0000;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
