@@ -71,6 +71,15 @@
     corresponding button id, so that clicks of that button could be logged -->
     <div class="content-pane">
 
+      <div id="cart-wrapper">
+        <a onclick='navigateToCheckout()'>
+        <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
+          <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+          <i class="fa fa-shopping-cart fa-stack-2x red-cart"></i>
+        </span> CART
+      </a>
+      </div>
+
       <div class="flex-row">
         <div>
           <div class="vendor-wrapper" id="mp1">
@@ -116,15 +125,6 @@
             </p>
           </div>
         </div>
-      </div>
-
-      <div id="cart-wrapper">
-        <a onclick='navigateToCheckout()'>
-        <span id="cart" class="fa-stack fa-2x has-badge" data-count="0">
-          <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-          <i class="fa fa-shopping-cart fa-stack-2x red-cart"></i>
-        </span> CART
-      </a>
       </div>
     </div>
 
